@@ -53,7 +53,7 @@ public class EnemyAI : MonoBehaviour
         {
             
             Destroy(Other.gameObject);
-            Debug.Log("Game Over!");
+            Debug.Log("Gamer!");
             gameOver = true;
         }
     }
