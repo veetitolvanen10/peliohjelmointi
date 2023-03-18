@@ -24,7 +24,7 @@ public class Bullet : MonoBehaviour
                 {
             Destroy(gameObject);
             Destroy(Other.gameObject);
-            Debug.Log("Trigger!");
+            Debug.Log("Trig!");
         }
         
     }
